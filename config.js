@@ -2,12 +2,12 @@ const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 
-//═══════[Required Variables]════════\\
+//═══════[ icon]════════\\
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
-global.email="samsamsun789@gmail.com"
+global.email="fxmurage@gmail.com"
 global.location="Lahore,Punjab,Pakistan"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
@@ -33,7 +33,7 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 global.devs = "923184474176" // Developer Conatact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') :254742904043 ";
 
 module.exports = {
 
@@ -43,15 +43,14 @@ module.exports = {
 
   HANDLERS:process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH  || "main",
-  VERSION:process.env.VERSION || "v.1.2.7-qr",
+  VERSION:process.env.VERSION || "v.1.2.7-qr"
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
   author: process.env.PACK_AUTHER || "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
-
+  botname : process.env.BOT_NAME  || "icon_ke",
+  ownername:process.env.OWNER_NAME|| "icon",
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
