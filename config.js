@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-//═══════[Required Variables]════════\\
+//═══════[icon]════════\\
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
@@ -76,7 +76,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "icon",
 
 
   errorChat : process.env.ERROR_CHAT || "",
